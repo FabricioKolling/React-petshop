@@ -5,6 +5,7 @@ import BanhoTosa from "./pages/BanhoTosa";
 import HotelResort from "./pages/HotelResort";
 import Adestramento from "./pages/Adestramento";
 import NavbarMenu from "./pages/NavbarMenu";
+import DireitosAutorias from "./components/DireitosAutorias"
 
 const App = () => {
 	return (
@@ -19,6 +20,7 @@ const App = () => {
 				<Route path="/hotel-resort" element={<HotelResort />} />
 				<Route path="/adestramento" element={<Adestramento />} />
 			</Routes>
+			<DireitosAutorias/>
 		</Router>
 	);
 };
